@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid red;
+    padding: 8px;
+}
+div container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px dotted blue;
+    margin: 8px;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+p{
+    color: green;
+    font-weight: bolder;
+    font-size: bolder;
+}
+span{
+    display: block;
+}
+button{
+    padding: 4px 8px;
+    margin: 5px;
+    border: none;
+}
+#start{
+    background-color: royalblue;
+}
+#increament{
+    background-color: yellow;
+}
+#reset{
+    background-color: yellowgreen;
+}
